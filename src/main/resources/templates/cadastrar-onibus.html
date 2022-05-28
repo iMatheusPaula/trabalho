@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+
+    <h1>Busão - Cadastro</h1>
+    <h2> ONIBUS </h2>
+
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">número</label>
+          <input type="number" class="form-control" id="numero">
+          <div id="numero" class="form-text">cadastrar numero</div>
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">quantidade</label>
+          <input type="number" class="form-control" id="quantidade" >
+          <div id="quantidade" class="form-text">cadastrar quantidade</div>
+        </div>
+        
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">placa</label>
+          <input type="text" class="form-control" id="placa" >
+          <div id="placa" class="form-text">cadastrar placa.</div>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">
+          <a href="../templates/index.html"></a>
+          Início
+        </button>
+
+        <button type="submit" class="btn btn-primary">
+          <a href="@{/onibus/cadastrar}"></a>
+          Salvar
+        </button>
+      </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+       
+      </ol>
+    </nav>
+
+  </body>
+</html>
